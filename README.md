@@ -1,7 +1,7 @@
 Active911 Open API
 ========
 
-=== Introduction
+===Introduction
 
 The Active911 cloud manages a large amount of data relevant to emergency response.  Active911 also has mapping, response, and resource GIS data that is constantly being updated in real time. 
 
@@ -14,11 +14,11 @@ Here are some examples:
 - Computer Aided Dispatch (CAD) vendors can use the API to make it so that response actions transmitted from tablets and smartphones running Active911 can be automatically incorporated into the incident
 
 
-== Security
+===Security
 
 In order to access all of this information, you will need to contact the administrator of each Active911 account you want to access.  Normally, you will already be working together - they are probably buying your software, or you are their IT administrator.  They will need to log into the Active911 account and create an API grant and give it to you.  We give detailed, realtime information about emergency response.... so you aren't going to get it without the explicit permission of the person in charge. :)
 
-=== Data available
+===Data available
 
 The following is available under the API:
 
@@ -27,7 +27,7 @@ The following is available under the API:
 - GIS data: push and pull map markers 
 - Realtime information callback and injection as alerts happen
 
-=== Getting started
+===Getting started
 
 To get started, you'll need to register as a developer.  This is free; it just means we know who you are and how to contact you.  Once you register, you can create one or or apps.  Each app can interface with Active911 to push and pull data.
 
