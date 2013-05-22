@@ -31,6 +31,6 @@ The following is available under the API:
 
 To get started, you'll need to register as a developer.  This is free; it just means we know who you are and how to contact you.  Once you register, you can create one or or apps.  Each app can interface with Active911 to push and pull data.
 
-Once you've done this, go ahead and clone the examples in this repository.  Technical documentation is available in the [wiki][].
+Once you've done this, go ahead and clone the examples in this repository.  Technical documentation is available in the [wiki](wiki) .
 
 
