@@ -29,8 +29,14 @@ The following is available under the API:
 
 ### Getting started
 
-To get started, you'll need to register as a developer.  This is free; it just means we know who you are and how to contact you.  Once you register, you can create one or or apps.  Each app can interface with Active911 to push and pull data.
+1. Contact Activ911 to register as a developer.  This is free. You'll also create an app, and register it with Active911.
+2. Log into your Active911 account and generate an API key.
+3. Clone this Github repo, and browse to examples/web_client
+4. Enter your API key and your developer app key.  Push the buttons.  See how it works.
+5. Write your own client to do whatever you like
 
-Once you've done this, go ahead and clone the examples in this repository.  Technical documentation is available in the [wiki](https://github.com/active911/open-api/wiki) .
+### Documentation 
+
+Please see the [wiki](https://github.com/active911/open-api/wiki) .
 
 
