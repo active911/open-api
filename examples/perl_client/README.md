@@ -5,7 +5,6 @@ This perl client will connect to the Active911 open API service and perform simp
 Before running the client, make sure you have the following Perl modules installed:
 
 - JSON
-- Data::Dumper
 - LWP::UserAgent
 
 #### Example usage
