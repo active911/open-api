@@ -106,12 +106,12 @@ sub ping {
 #
 # @param alert_id the ID of the alert 
 # @retval server response (hashref, like {'result'=>'success', 'message'=>{ alert data... }})
-sub fetch_alert {
+sub get_alert {
 
 	my $self=shift;
 	my $alert_id = int shift;
 	
-	return server_command($self,{ operation => 'fetch_alert', alert_id => $alert_id });
+	return server_command($self,{ operation => 'get_alert', alert_id => $alert_id });
 	
 }
 
@@ -122,14 +122,35 @@ sub fetch_alert {
 #
 # @param device_id the ID of the device
 # @retval server response (hashref, like {'result'=>'success', 'message'=>{ data... }})
-sub fetch_device {
+sub get_device {
 
 	my $self=shift;
 	my $device_id = int shift;
 	
-	return server_command($self,{ operation => 'fetch_device', device_id => $device_id });
+	return server_command($self,{ operation => 'get_device', device_id => $device_id });
 	
 }
 
+## 
+# Fetch Map Data
+#
+# Gets all map data from a particular area
+#
+# @param north the northernmost latitude of the search area
+# @param south the southermost latitude of the search area
+# @param east the eastern longitude of the search area
+# @param west the western longitude of the search area
+# @retval server response (hashref, like {'result'=>'success', 'message'=>{ data... }}) containing all map data markers from that area
+sub get_locations {
+
+	my $self=shift;
+	my $north = 1.0* shift;
+	my $south = 1.0* shift;
+	my $east = 1.0* shift;
+	my $west = 1.0* shift;
+	
+	return server_command($self,{ operation => 'get_locations', north => $north, south => $south, east => $east, west => $west });
+	
+}
 
 1;
