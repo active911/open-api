@@ -1,5 +1,7 @@
-Active911 Open API
+NOTICE: This API is now depracated.  The new OAuth OpenApi is available for use. http://wiki.active911.com/wiki/index.php/Active911_Developer_API
 ========
+
+### Active911 Open API
 
 ### Introduction
 
